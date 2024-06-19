@@ -1,67 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: imagem; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'menu header header header header header'
-    'menu main main main imagem imagem'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: rgb(253, 108, 129);
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgb(243, 176, 188);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-.item4{
-    opacity: 1;
-}
-.playfair-display-<uniquifier< {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1 { grid-area: soma; }
+        .item2 { grid-area: subtração; }
+        .item3 { grid-area: multiplicação; }
+        .item4 { grid-area: divisão; }
+        .item5 { grid-area: fatorial; }
+        .item6 { grid-area: imc; }
+        .item7 { grid-area: nome; }
+        .item8 { grid-area: login; }
+        .item9 { grid-area: imagem; }
+        
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            'soma soma subtração subtração multiplicação multiplicação'
+            'divisão divisão fatorial fatorial imc imc'
+            'nome nome login login imagem imagem';
+          gap: 5px;
+          background-color: rgb(253, 108, 129);
+          padding: 5px;
+        }
+        
+        .grid-container > div {
+          background-color: rgb(243, 176, 188);
+          width: 628px;
+          height: 80px;
+          padding: 103px 0;
+          font-size: 25px;
+        }
+        .grid-container .item1{
+            
+        }
+        
+        </style>
 </head>
 <body>
+    <div class="grid-container">
+        <div class="item1">
+        </div>
+        <div class="item2">
+        </div>
+        <div class="item3">
+        </div>
+        <div class="item4">
+        </div>
+        <div class="item5">
+        </div>
+        <div class="item6">
+        </div>
+        <div class="item7">
+        </div>
+        <div class="item8">
+        </div>
+        <div class="item9">
+        </div>
 
 
-<div class="grid-container">
-  <div class="item1">
-    Floricultura
-  </div>
-  <div class="item2">
-    <br>
-    <a href="">Início</a><br><br>
-    <a href="">Conta</a><br><br>
-    <a href="">Sugestões</a><br><br>
-    <a href="">Compras</a>
-  </div>
-  <div class="item3">
-   <br> Surpreenda alguém com flores frescas e coloridas. Visite nossa floricultura hoje mesmo!
-    
-  </div>  
-  <div class="item4"><img src = "p.jpg" width="200px" height="200px"></div>
-  <div class="item5"></div>
-</div>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
+
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-
